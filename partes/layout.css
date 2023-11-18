@@ -1,0 +1,15 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.bg-home {
+  position: relative;
+}
+
+.bg-home::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../imagens/foto.jpeg");
+}/*# sourceMappingURL=layout.css.map */
