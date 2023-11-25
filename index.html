@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+       
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 
     <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     
+
     <title>GM PORTIFOLIO</title>
 </head>
 <body>
@@ -18,37 +23,40 @@
         <header>
 
             <nav class="header-content container">
-                <div class="header-icons">
-                    <a href="#">
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="https://www.instagram.com/gmweb2021/" target="_blank">
                         <i class="fa-brands fa-instagram fa-2x"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=100063611756093" target="_blank">
                         <i class="fa-brands fa-facebook fa-2x"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://api.whatsapp.com/send?phone=5518981663925&text=Quero%20Contratar%20um%20Servico%20" target="_blank">
                         <i class="fa-brands fa-whatsapp fa-2x"></i>
                     </a>
                 </div>
 
-                <div class="header-logo">
+                <div class="header-logo" data-aos="fade-up" data-aos-dalay="500">
                     <img 
+                        data-aos="flip-up"
+                        data-aos-dalay="500"
+                        data-aos-duration="1500"
                         src="imagens/logo.png"
                         alt="Logo do portifolio"
                     />
                 </div>
 
-                <div>
+                <div data-aos="fade-down">
                     <a class="header-button" href="#">
                         Ir para o site GM WEB
                     </a>
                 </div>
             </nav>
 
-            <main class="hero container">
+            <main class="hero container" data-aos="fade-up" data-aos-dalay="400">
                 <h1>Olá Meu nome é Guilherme Martins.</h1>
                 <p>Aqui vou escrever algum texto legal</p>
-                <a href="#" class="button-contact" target="_blank">
-                    IR PARA O SITE
+                <a href="https://github.com/GuilhermeMartins77" class="button-contact" target="_blank">
+                    IR PARA O GIT
                 </a>
             </main>
 
@@ -57,16 +65,21 @@
 
     <section class="sobre">
         <div class="container sobre-content">
-            <div>
+            <div data-aos="zoom-in" data-aos-dalay="100">
                 <img 
-                src="imagens/foto.png" 
+                src="imagens/gui.png" 
                 alt="imagem sobre meus projetos"
                 />
             </div>
-            <div class="sobre-description">
+            <div 
+            class="sobre-description"
+            data-aos="zoom-out-left" data-aos-dalay="250"
+            >
                 <h2>Sobre</h2>
-                <p>Aqui tem uma historia sobre mim</p>
-                <p>Mais um texto sobre mim</p>
+                <p>Sou um profissional dedicado e apaixonado pela área de tecnologia. Com vasta experiência em criação de sites, web design e social media, tenho habilidades sólidas em criação de estilos unicos para o cliente.</p>
+                <p>Ao longo da minha carreira, tive a oportunidade de trabalhar em projetos desafiadores e colaborar com equipes talentosas. Meu foco é sempre entregar resultados de alta qualidade, buscando a excelência em cada projeto.</p>
+                <p>Estou constantemente atualizando minhas habilidades e conhecimentos para me manter atualizado com as últimas tendências e tecnologias. Estou animado para compartilhar meu trabalho e contribuir para o sucesso de novos projetos.</p>
+                
 
             </div>
         </div>
@@ -75,47 +88,51 @@
 
     <section class="services">
         <div class="services-content container">
-            <h2>Serviços</h2>
+
+            <h2>Meus Projetos</h2>
             <p>aqui vou escrevert alguma coisa muito legar que vai fazer sentido para mim e vai fazer um grande avanço para a humanidade</p>
         </div>
 
-        <section class="haircuts">
+        <section class="haircuts" data-aos="fade-up" data-aos-dalay="150">
 
-            <div class="haircut">
+            <div class="haircut" >
                 <img
-                src="imagens/foto.png"
+                src="imagens/gmweb2.png"
                 alt="HTML"
                 />
                 <div class="haircut-info">
-                    <strong>linguagem HTML</strong>
+                    <strong>Site Portifólio</strong>
                     <button>
-                        IR PARA
+                        <a href="https://github.com/GuilhermeMartins77/Site-Portfolio-Beta" class="button-contact" target="_blank">
+                            Repositorio
+                        </a>
+                        
                     </button>
                 </div>
             </div>
 
-            <div class="haircut">
+            <div class="haircut" data-aos="fade-up" data-aos-dalay="250">
                 <img
-                src="imagens/foto.png"
+                src="imagens/interrogacao1.png"
                 alt="HTML"
                 />
                 <div class="haircut-info">
-                    <strong>linguagem CSS</strong>
+                    <strong>Novo Projeto</strong>
                     <button>
-                        IR PARA
+                        Repositorio
                     </button>
                 </div>
             </div>
 
-            <div class="haircut">
+            <div class="haircut" data-aos="fade-up" data-aos-dalay="350">
                 <img
-                src="imagens/foto.png"
+                src="imagens/interrogacao1.png"
                 alt="HTML"
                 />
                 <div class="haircut-info">
-                    <strong>linguagem pyhton</strong>
+                    <strong>Novo Projeto 2</strong>
                     <button>
-                        IR PARA
+                        Repositorio
                     </button>
                 </div>
             </div>
@@ -129,13 +146,13 @@
 
     <footer class="footer">
         <div class="footer-icons">
-            <a href="#">
+            <a href="https://www.instagram.com/gmweb2021/" target="_blank">
                 <i class="fa-brands fa-instagram fa-2x"></i>
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100063611756093" target="_blank">
                 <i class="fa-brands fa-facebook fa-2x"></i>
             </a>
-            <a href="#">
+            <a href="https://api.whatsapp.com/send?phone=5518981663925&text=Quero%20Contratar%20um%20Servico%20" target="_blank">
                 <i class="fa-brands fa-whatsapp fa-2x"></i>
             </a>
         </div>
@@ -155,10 +172,14 @@
     href="https://api.whatsapp.com/send?phone=5518981663925&text=Quero%20Contratar%20um%20Servico%20"
     class="btn-whatsapp"
     target="_blank"
+    data-aos="zoom-in-up" data-aos-dalay="400"
     >
         <img src="imagens/zap.png" alt="Botao whatsapp"/>
         <span class="tooltip-text">Entre em contato</span>
     </a>
+
+    <script src="script.js"></script>
+
 
 </body>
 </html>
