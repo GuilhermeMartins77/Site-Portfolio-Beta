@@ -26,7 +26,7 @@ i {
 
 .header-icons a:hover i {
   animation: translateY 0.9s infinite alternate;
-  color: #d34040;
+  color: #029ED9;
 }
 
 @keyframes translateY {
@@ -47,8 +47,8 @@ i {
 }
 
 .header-button:hover {
-  border: 1px solid #d34040;
-  background-color: #d34040;
+  border: 1px solid #029ED9;
+  background-color: #029ED9;
 }
 
 .header-logo {
@@ -125,7 +125,7 @@ i {
 .hero .button-contact {
   padding: 14px 28px;
   color: #fff;
-  background-color: #d94140;
+  background-color: #029ED9;
   border: 0;
   font-size: 18px;
   font-weight: 600;
@@ -199,6 +199,41 @@ i {
     flex-direction: column;
   }
 }
+.historia {
+  background-color: #06121e;
+  overflow: hidden;
+  color: #fff;
+}
+
+.historia-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 34px 14px 64px 14px;
+}
+.historia-content img {
+  max-width: 570px;
+}
+
+.historia-content div {
+  flex: 1;
+}
+
+.historia-description h2 {
+  font-size: 38px;
+  margin-bottom: 24px;
+}
+.historia-description p {
+  margin-bottom: 14px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 760px) {
+  .historia-content {
+    flex-direction: column;
+  }
+}
 .services {
   background-color: #fff;
   color: #232224;
@@ -262,7 +297,7 @@ i {
 
 .haircut-info button {
   color: #fff;
-  background-color: #d94140;
+  background-color: #029ED9;
   padding: 4px 8px;
   border-radius: 4px;
   border: 0;

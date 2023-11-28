@@ -20,7 +20,7 @@ i{
 .header-icons a:hover{
     i{
         animation: translateY 0.9s infinite alternate;
-        color: $red-light;
+        color: #029ED9;
     }
 }
 
@@ -43,8 +43,8 @@ i{
 }
 
 .header-button:hover{
-    border: 1px solid $red-light;
-    background-color: $red-light;
+    border: 1px solid #029ED9;
+    background-color: #029ED9;
 }
 
 .header-logo{
